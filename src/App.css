@@ -1,38 +1,84 @@
 .App {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  padding: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user {
+  width: 70vw;
+  margin: 0 auto;
+  background: rgb(227, 238, 238);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user__profile {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.user__profile .username {
+  text-align: right;
+}
+.user__profile .username span {
+  font-size: 1rem;
+  color: rgb(114, 108, 108);
+}
+.user__img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user__img img {
+  width: 100%;
+}
+
+.user__bio {
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  margin-bottom: 3rem;
+}
+.user__bio span {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.user__repositories {
+  list-style-type: none;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user__repositories .repo {
+  width: 10rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background: rgb(174, 211, 211);
+}
+.user__repo_container {
+  background: rgb(214, 243, 243);
+}
+.repo .repo__name {
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+.repo a {
+  text-decoration: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  background: rgb(10, 10, 10);
 }
