@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gitprofile/static/css/main.d6e13fff.chunk.css",
+    "main.css": "/gitprofile/static/css/main.04061e54.chunk.css",
     "main.js": "/gitprofile/static/js/main.c6026f2f.chunk.js",
     "main.js.map": "/gitprofile/static/js/main.c6026f2f.chunk.js.map",
     "runtime-main.js": "/gitprofile/static/js/runtime-main.bba3d9d2.js",
@@ -10,13 +10,13 @@
     "static/js/3.6709ab29.chunk.js": "/gitprofile/static/js/3.6709ab29.chunk.js",
     "static/js/3.6709ab29.chunk.js.map": "/gitprofile/static/js/3.6709ab29.chunk.js.map",
     "index.html": "/gitprofile/index.html",
-    "static/css/main.d6e13fff.chunk.css.map": "/gitprofile/static/css/main.d6e13fff.chunk.css.map",
+    "static/css/main.04061e54.chunk.css.map": "/gitprofile/static/css/main.04061e54.chunk.css.map",
     "static/js/2.7e7ac029.chunk.js.LICENSE.txt": "/gitprofile/static/js/2.7e7ac029.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bba3d9d2.js",
     "static/js/2.7e7ac029.chunk.js",
-    "static/css/main.d6e13fff.chunk.css",
+    "static/css/main.04061e54.chunk.css",
     "static/js/main.c6026f2f.chunk.js"
   ]
 }
